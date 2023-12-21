@@ -59,12 +59,13 @@ print(L)
 print(U)
 ```
 (ii) To find the LU Decomposition of a matrix
+```
 '''Program to solve a matrix using LU decomposition.
 Developed by: T.Ajay
 RegisterNumber: 23007325
 '''
 # To print X matrix (solution to the equations)
-import numpy as np
+```import numpy as np
 from scipy.linalg import lu_factor,lu_solve
 A=np.array(eval(input()))
 b=np.array(eval(input()))
